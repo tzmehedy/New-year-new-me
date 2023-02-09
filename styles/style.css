@@ -68,3 +68,16 @@
     justify-content: space-evenly;
     margin-top: 50px;
 }
+.positive-mindset-container{
+    margin: 80px 150px;
+    
+    padding: 20px;
+    background-image: url("../images/watch.png"),linear-gradient(to right, rgba(20, 117, 191, 0.684),rgba(0, 0, 0, 0.7));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+.positive-mindset-description{  
+    padding: 60px;
+   
+}
