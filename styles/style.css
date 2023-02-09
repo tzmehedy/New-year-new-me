@@ -1,5 +1,6 @@
 *{
     margin:0px;
+    
 }
 .banner-container{
     width:100%;
@@ -32,4 +33,29 @@
     font-weight: bold;
     padding: 10px 20px;
     margin-top: 10px;
+}
+.my-failure{
+    width:100%;
+    height:100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 50px;
+    
+}
+.failure-img{
+    height: 600px;
+    width:500px;
+    padding: 100px;
+
+}
+.my-failure-text{
+    padding: 80px;  
+}
+.my-failure-title{
+    font-size: 60px;
+}
+.my-failure-description{
+    font-size: 20px;
+    margin-bottom: 10px;
 }
