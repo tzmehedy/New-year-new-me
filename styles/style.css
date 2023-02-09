@@ -1,0 +1,35 @@
+*{
+    margin:0px;
+}
+.banner-container{
+    width:100%;
+    height: 100vh;
+    background-image: url("/images/banner3.png");
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    text-align: end;
+    
+}
+.banner-content{
+    padding-right: 50px;
+    width:450px;
+}
+.banner-title{
+    color: white;
+    font-size: 60px;
+}
+.banner-description{
+    color: white;
+    font-size: 15px;
+}
+.btn{
+    background-color: white;
+    border: none;
+    border-radius: 8px;
+    color: rgba(0, 0, 255, 0.839);
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
