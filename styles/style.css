@@ -69,18 +69,45 @@
     justify-content: space-evenly;
     margin-top: 50px;
 }
+
+.experience-container{
+    text-align: center;
+    margin-top: 100px;
+}
+.experience-items{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+    padding: 50px;
+    
+}
+.experience-item{
+    width: 50%;
+    padding: 50px;
+    margin: 10px;
+    text-align: justify;
+    border: 2px solid gray;
+    box-shadow: 2px 3px 5px 3px gray;
+    
+}
+
+
+
 .positive-mindset-container{
     margin: 80px 150px;
     
     padding: 20px;
-    background-image: url("../images/watch.png"),linear-gradient(to right, rgba(20, 117, 191, 0.684),rgba(0, 0, 0, 0.7));
+    background-image: url("../images/watch.png"),linear-gradient(to right, rgba(9, 108, 184, 0.684),rgba(0, 0, 0, 0.7));
     background-blend-mode: overlay;
     background-repeat: no-repeat;
     border-radius: 5px;
 }
 .positive-mindset-description{  
-    padding: 60px;
-   
+    padding: 60px; 
+}
+.positive-mindset-title{
+    color: white;
+    font-size: 40px;
 }
 
 .footer-container{
